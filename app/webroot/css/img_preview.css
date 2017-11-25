@@ -1,0 +1,18 @@
+ul.imagepreview{
+    margin:0;
+    padding:0;
+}
+ul.imagepreview li {
+    list-style:none;
+    float:left;
+    display:inline;
+    margin-right:10px;
+}
+.preview{
+    position:absolute;
+    border:1px solid #ccc;  /*---Edite cor da borda---*/
+    background:#000;   /*---Edite cor de fundo---*/
+    padding:5px;
+    display:none;
+    color:#fff;   /*---Edite cor da fonte---*/
+}

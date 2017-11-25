@@ -1,0 +1,110 @@
+/* 
+    Document   : recadastramento
+    Created on : Feb 4, 2013, 4:56:40 PM
+    Author     : Mayllon Veras
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.formee select.data{
+    width: 32%;
+}
+
+.formee select{
+    height: 80%;
+}
+
+.formee .up{
+    font-size: 96%;
+}
+
+#header h1 {
+    height: 55px;
+    background: #4A5B68 url('../img/logoSRSM.png') no-repeat left;
+    padding: 0px 90px;
+    font-size: large;
+    background-position: 0% -10;
+
+}
+
+.actions {
+
+    background:  url('../img/logo_parnaibaG.png') no-repeat left;
+    background-position: 50% 50%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+body {
+    background: #4A5B68;
+}
+
+.index .actions{
+    background-image: none;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=submit], form button.submit {
+    display: inline;
+    font-size: 150%;
+    width: auto;
+}
+
+form div.submit, form button.submit {
+    padding: 10px;
+    border: 0;
+    clear: both;
+    margin: 10px;
+
+}
+
+form button.submit {
+    background:#62af56;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a8ea9c), to(#62af56));
+    background-image: -moz-linear-gradient(top, #a8ea9c, #62af56);
+    border-color: #2d6324;
+    color: #000;
+    text-shadow: #8cee7c 0px 1px 0px;
+    border:1px solid #aaac62;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    text-decoration:none;
+    text-shadow: #fff 0px 1px 0px;
+}
+
+form .submit input[type=submit]:hover, form button.submit:hover {
+    background:#4ca83d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#85e573), to(#4ca83d));
+    background-image: -moz-linear-gradient(top, #85e573, #4ca83d);
+}
+
+.novocadastro{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+#footer #inf{
+    text-align: left;
+    float: left;
+    
+    
+}
+#footer #credits{
+    float: right;
+    
+}
+
+#footer #inf a{
+    color: #FFF;
+    
+}
